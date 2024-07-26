@@ -13,4 +13,14 @@ add_func(a, b)
 def greetings_function(*names): #* means user can input many names 
     print("Welcome " + names[2] + " !!")
 greetings_function("Sahil", "Ram", "Tom")
-    
+
+#return 
+def add_funct():
+    return 9+6
+print(add_funct())
+
+def add_functi(a, b):
+    return a+b
+a = int(input("Enter first number"))
+b = int(input("Enter second number"))
+print(add_functi(a, b))
