@@ -4,7 +4,7 @@ for letter in "hello":
 
 mylist = ["ab", "cd", "ef", "gh"]
 for values in mylist:
-    if values == "ef":
+    if values == "cd":
         break
     print(values)
 
